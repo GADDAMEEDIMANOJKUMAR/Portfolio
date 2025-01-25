@@ -37,8 +37,8 @@ const Skills = () => {
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           {['Problem Solving', 'Team Collaboration', 'Clean Code', 'Agile Development'].map((skill) => (
-            <div key={skill} className="text-center p-6 bg-white rounded-lg shadow-sm">
-              <h3 className="text-lg font-medium text-gray-900">{skill}</h3>
+            <div key={skill} className="text-center p-6 bg-white rounded-lg shadow-sm hover:bg-gray-600">
+              <h3 className="text-lg font-medium text-gray-900 hover:text-white ">{skill}</h3>
             </div>
           ))}
         </div>
