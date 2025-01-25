@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="aspect-square rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80"
+              src="https://res.cloudinary.com/dn0v6bhw1/image/upload/v1732620060/MANOJ_yfnnxw.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
@@ -31,18 +31,18 @@ const About = () => {
               <div className="flex gap-4">
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900">Education</h4>
-                  <p className="text-gray-600">B.S. in Computer Science</p>
+                  <p className="text-gray-600">B.S.c in Computer Science</p>
                 </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">New York, USA</p>
+                  <p className="text-gray-600">Proddatur, A.P</p>
                 </div>
               </div>
 
               <div className="flex gap-4">
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900">Experience</h4>
-                  <p className="text-gray-600">2+ Years</p>
+                  <p className="text-gray-600"> Fresher</p>
                 </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900">Projects</h4>
