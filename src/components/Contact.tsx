@@ -31,7 +31,7 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-indigo-600 mt-1" />
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-900">Location</h4>
-                  <p className="text-gray-600">New York, NY 10012, USA</p>
+                  <p className="text-gray-600">Proddatur, kadapa, A.p</p>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-900">Email</h4>
                   <a href="mailto:contact@example.com" className="text-gray-600 hover:text-indigo-600">
-                    contact@example.com
+                    manojgoud335@gmail.com
                   </a>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-900">Phone</h4>
                   <a href="tel:+1234567890" className="text-gray-600 hover:text-indigo-600">
-                    +1 (234) 567-890
+                    +91 8499941325
                   </a>
                 </div>
               </div>
