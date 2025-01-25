@@ -1,5 +1,5 @@
 const skills = [
-  { name: 'React.js', level: 80,
+  { name: 'React.js', level: 80},
   { name: 'JavaScript', level: 85 },
   { name: 'TypeScript', level: 50 },
   { name: 'Node.js', level: 70 },
