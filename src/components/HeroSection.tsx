@@ -26,10 +26,10 @@ export const HeroSection = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="animate-fade-in-up">
           <h1 className="text-hero mb-6 text-white drop-shadow-lg">
-            Frontend Developer
+              MANOJ KUMAR GADDAMEEDI
           </h1>
           <h2 className="text-3xl md:text-4xl font-semibold text-white/90 mb-4 drop-shadow-md">
-            React.js Enthusiast
+            Frontend developer (React.js)
           </h2>
           <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-sm">
             "Passionate about crafting beautiful, interactive user experiences that bring ideas to life through clean code and innovative design."
@@ -56,13 +56,13 @@ export const HeroSection = () => {
           </div>
         </div>
         
+      </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="flex flex-col text-white/70 cursor-pointer hover:text-white transition-smooth" onClick={scrollToAbout}>
-            <span className="text-sm mb-2">Scroll Down</span>
+          <div className="flex text-white/70 cursor-pointer hover:text-white transition-smooth" onClick={scrollToAbout}>
+            <span className="text-lg mb-2">Scroll Down</span>
             <ArrowDown className="h-6 w-6 float-animation" />
           </div>
         </div>
-      </div>
     </section>
   );
 };
