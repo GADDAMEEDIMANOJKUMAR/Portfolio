@@ -41,14 +41,14 @@ const skills: Skill[] = [
   },
   {
     name: "JavaScript",
-    level: 88,
+    level: 75,
     category: "Frontend",
     icon: <Zap className="h-6 w-6" />,
     description: "ES6+, DOM manipulation, and modern JS concepts"
   },
   {
     name: "React.js",
-    level: 85,
+    level: 80,
     category: "Frontend",
     icon: <Component className="h-6 w-6" />,
     description: "Component-based architecture and modern React patterns"

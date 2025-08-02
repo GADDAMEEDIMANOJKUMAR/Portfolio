@@ -5,6 +5,13 @@ import profileImg from "@/assets/profile.jpg";
 
 export const AboutSection = () => {
   const handleDownloadResume = () => {
+
+  const link = document.createElement('a');
+  link.href = 'https://drive.google.com/file/d/1bha65lVsXTQ7n0GCpf17-ALzN392Ketb/view?usp=sharing'; // Path relative to the public folder
+  link.download = 'https://drive.google.com/file/d/1bha65lVsXTQ7n0GCpf17-ALzN392Ketb/view?usp=sharing'; // Optional: rename file when downloading
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
     // In a real implementation, this would download the actual PDF
     console.log("Download resume clicked");
     // You would link to your actual resume PDF here
@@ -24,7 +31,7 @@ export const AboutSection = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-full overflow-hidden shadow-card border-4 border-primary/20">
                 <img 
-                  src={profileImg} 
+                  src="https://res.cloudinary.com/dn0v6bhw1/image/upload/v1754171322/manoj_ozdwhh.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover hover:scale-105 transition-smooth"
                 />

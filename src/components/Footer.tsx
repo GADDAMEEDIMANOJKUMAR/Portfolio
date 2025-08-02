@@ -6,7 +6,7 @@ export const Footer = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const currentYear = new Date().getFullYear();
+ 
 
   return (
     <footer className="bg-card border-t border-border py-12 relative">
@@ -23,7 +23,7 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/GADDAMEEDIMANOJKUMAR" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-smooth"
@@ -31,7 +31,7 @@ export const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/manoj-kumar-gaddameedi-3321a2204/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-smooth"
@@ -39,7 +39,7 @@ export const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:your.email@example.com"
+                href="mailto:manojgoud335@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-smooth"
               >
                 <Mail className="h-5 w-5" />
@@ -90,9 +90,9 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>your.email@example.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>Your City, Country</p>
+              <p>manojgoud335@gmail.com</p>
+              <p>+91 8499941325</p>
+              <p>Kadapa, A.P</p>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center text-muted-foreground mb-4 sm:mb-0">
-            <span>© {currentYear} Frontend Developer. Made with</span>
+            <span>© 2025 Frontend Developer. Made with</span>
             <Heart className="h-4 w-4 mx-1 text-red-500 fill-current" />
             <span>and React</span>
           </div>

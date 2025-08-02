@@ -63,7 +63,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-muted-foreground">your.email@example.com</p>
+                  <p className="text-muted-foreground">manojgoud335@gmail.com</p>
                 </div>
               </div>
               
@@ -73,7 +73,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Phone</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+91 8499941325</p>
                 </div>
               </div>
               
@@ -83,7 +83,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Location</h4>
-                  <p className="text-muted-foreground">Your City, Country</p>
+                  <p className="text-muted-foreground">Kadapa, A.P</p>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ export const ContactSection = () => {
               <h4 className="font-semibold mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/GADDAMEEDIMANOJKUMAR" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-primary/10 hover:bg-primary hover:text-primary-foreground p-3 rounded-full transition-smooth hover:scale-110"
@@ -101,7 +101,7 @@ export const ContactSection = () => {
                   <Github className="h-6 w-6" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/manoj-kumar-gaddameedi-3321a2204/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-primary/10 hover:bg-primary hover:text-primary-foreground p-3 rounded-full transition-smooth hover:scale-110"
@@ -109,7 +109,7 @@ export const ContactSection = () => {
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a 
-                  href="mailto:your.email@example.com"
+                  href="mailto:manojgoud335@gmail.com"
                   className="bg-primary/10 hover:bg-primary hover:text-primary-foreground p-3 rounded-full transition-smooth hover:scale-110"
                 >
                   <Mail className="h-6 w-6" />

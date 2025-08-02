@@ -19,30 +19,30 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "React Dashboard App",
+    title: "Mani Restaurent",
     description: "A modern, responsive dashboard application built with React and featuring real-time data visualization, user authentication, and a clean, intuitive interface.",
-    image: project1,
-    tags: ["React", "JavaScript", "CSS3", "Chart.js"],
-    liveUrl: "#",
-    githubUrl: "#"
+    image: "https://res.cloudinary.com/dn0v6bhw1/image/upload/v1754167691/Screenshot_2025-08-03_021711_nkadqq.png",
+    tags: ["React", "JavaScript", "CSS3", "HTML",],
+    liveUrl: "https://manirestaurentse.netlify.app/",
+    githubUrl: "https://github.com/GADDAMEEDIMANOJKUMAR/Manirestaurent.git"
   },
   {
     id: 2,
-    title: "E-commerce Platform",
+    title: "Accordian-app",
     description: "Full-featured online store with shopping cart functionality, product search and filtering, user accounts, and payment integration using modern web technologies.",
-    image: project2,
+    image: "https://res.cloudinary.com/dn0v6bhw1/image/upload/v1754167929/Screenshot_2025-08-03_022145_fh7wyu.png",
     tags: ["HTML5", "CSS3", "JavaScript", "React"],
-    liveUrl: "#",
-    githubUrl: "#"
+    liveUrl: "https://accordiane.netlify.app/",
+    githubUrl: "https://github.com/GADDAMEEDIMANOJKUMAR/Accordion.git"
   },
   {
     id: 3,
-    title: "Task Management System",
+    title: "Our Tours",
     description: "Collaborative task management application with drag-and-drop functionality, real-time updates, team collaboration features, and responsive design.",
-    image: project3,
+    image: "https://res.cloudinary.com/dn0v6bhw1/image/upload/v1754168179/Screenshot_2025-08-03_022545_rrukfa.png",
     tags: ["React", "CSS3", "JavaScript", "API"],
-    liveUrl: "#",
-    githubUrl: "#"
+    liveUrl: "https://ourjourne.netlify.app/",
+    githubUrl: "https://github.com/GADDAMEEDIMANOJKUMAR/Our-tours.git"
   }
 ];
 
@@ -150,10 +150,13 @@ export const ProjectsSection = () => {
         </div>
         
         <div className="text-center mt-12 animate-on-scroll">
+            <a href="https://github.com/GADDAMEEDIMANOJKUMAR">
           <Button variant="outline" size="lg" className="shadow-card hover:shadow-glow">
+            
             <Github className="mr-2 h-5 w-5" />
             View All Projects on GitHub
           </Button>
+            </a>
         </div>
       </div>
     </section>
