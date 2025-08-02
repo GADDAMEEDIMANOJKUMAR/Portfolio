@@ -111,26 +111,42 @@ export const SkillsSection = () => {
           {filteredSkills.map((skill, index) => (
             <Card 
               key={skill.name}
-              className="p-6 shadow-card hover:shadow-glow transition-smooth hover:scale-105 animate-on-scroll"
+              className="p-6 shadow-card hover:shadow-glow transition-smooth hover:scale-105 animate-on-scroll group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="flex items-center mb-4">
-                <div className="text-primary mr-3">
-                  {skill.icon}
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-semibold text-lg">{skill.name}</h3>
-                  <p className="text-sm text-muted-foreground">{skill.category}</p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center">
+                  <div className="text-primary mr-3 group-hover:scale-110 transition-smooth">
+                    {skill.icon}
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg">{skill.name}</h3>
+                    <p className="text-sm text-muted-foreground">{skill.category}</p>
+                  </div>
                 </div>
                 <div className="text-right">
-                  <span className="text-lg font-bold text-primary">{skill.level}%</span>
+                  <div className="relative">
+                    <span className="text-2xl font-bold text-gradient">{skill.level}%</span>
+                    <div className="absolute -top-1 -right-1 w-3 h-3 bg-primary rounded-full animate-pulse"></div>
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-1">Proficiency</p>
                 </div>
               </div>
               
-              <Progress 
-                value={skill.level} 
-                className="mb-3 h-2"
-              />
+              <div className="mb-4">
+                <div className="flex justify-between text-sm mb-2">
+                  <span className="text-muted-foreground">Progress</span>
+                  <span className="font-medium">{skill.level}% Complete</span>
+                </div>
+                <Progress 
+                  value={skill.level} 
+                  className="h-3 mb-2"
+                />
+                <div className="flex justify-between text-xs text-muted-foreground">
+                  <span>Beginner</span>
+                  <span>Expert</span>
+                </div>
+              </div>
               
               <p className="text-sm text-muted-foreground">
                 {skill.description}

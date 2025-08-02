@@ -1,4 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { Navbar } from "./Navbar";
 import { ThemeToggle } from "./ThemeToggle";
 import { HeroSection } from "./HeroSection";
 import { AboutSection } from "./AboutSection";
@@ -12,8 +13,11 @@ export const Portfolio = () => {
 
   return (
     <div className="min-h-screen">
+      <Navbar />
       <ThemeToggle />
-      <HeroSection />
+      <div id="home">
+        <HeroSection />
+      </div>
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />

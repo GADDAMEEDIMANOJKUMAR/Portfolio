@@ -26,7 +26,7 @@ export const ThemeToggle = () => {
       variant="outline"
       size="icon"
       onClick={toggleTheme}
-      className="fixed top-4 right-4 z-50 shadow-card hover:shadow-glow transition-smooth"
+      className="fixed top-20 right-4 z-40 shadow-card hover:shadow-glow transition-smooth"
     >
       {theme === 'light' ? (
         <Moon className="h-5 w-5" />
