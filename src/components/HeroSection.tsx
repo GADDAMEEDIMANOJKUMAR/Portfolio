@@ -57,7 +57,7 @@ export const HeroSection = () => {
         </div>
         
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="flex flex-col items-center text-white/70 cursor-pointer hover:text-white transition-smooth" onClick={scrollToAbout}>
+          <div className="flex flex-col text-white/70 cursor-pointer hover:text-white transition-smooth" onClick={scrollToAbout}>
             <span className="text-sm mb-2">Scroll Down</span>
             <ArrowDown className="h-6 w-6 float-animation" />
           </div>
